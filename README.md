@@ -1,4 +1,4 @@
-### about weather with vue-cli + vue2.6 + tsx + vue-property-decorator + es6 + axios 
+### about weather ( vue-cli + vue2.6 + tsx + vue-property-decorator + es6 + axios )
 
 ### Project setup
 ```
