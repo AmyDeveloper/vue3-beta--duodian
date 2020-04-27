@@ -10,13 +10,17 @@ module.exports = {
       stylus: {
         import: [
           path.resolve(__dirname, 'src/assets/styles/variable.styl'),
-          path.resolve(__dirname, 'src/assets/styles/common.styl'),
-        ],
-      },
-    },
+          path.resolve(__dirname, 'src/assets/styles/common.styl')
+        ]
+      }
+    }
   },
 
   devServer: {
-    // proxy: {}
+    proxy: {
+      '/api': {
+        target: 'https://free-api.heweather.net'
+      }
+    }
   }
 }
