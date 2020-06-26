@@ -4,35 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>weather.png">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
-    <script>
-      (function(window, document) {
-        function resize() {
-          var ww = window.innerWidth // 包含滚动条
-          if (ww > window.screen.width) {
-            window.requestAnimationFrame(resize) // 告诉浏览器 希望执行一个动画
-          } else {
-            if (ww > 720) {
-              ww = 720
-            }
-            document.documentElement.style.fontSize = ww * 100 / 720 + 'px'
-          }
-        }
-
-        resize();
-
-        window.addEventListener('resize', resize);
-        window.addEventListener('pageshow', function (e) {
-          if (e.presisted) {
-            resize();
-          }
-        });
-      })(window, document);
-      (function(){
-        window.startTimestamp = new Date().getTime()
-      })();
-    </script>
   </head>
   <body>
     <noscript>

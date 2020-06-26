@@ -1,6 +1,6 @@
-### about weather ( vue-cli + vue2.6 + tsx + vue-property-decorator + es6 + axios )
+# vue3-beta-duodian
 
-### Project setup
+## Project setup
 ```
 npm install
 ```

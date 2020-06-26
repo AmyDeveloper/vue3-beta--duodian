@@ -1,12 +1,18 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div>
+    <router-view/>
+    <bottom-nav></bottom-nav>
   </div>
 </template>
 
-<style lang="stylus" scoped>
-#app
-  min-height 100%
-  background-color #fff
-  font-size 28px
+<script>
+import vue from 'vue'
+import BottomNav from "@/components/nav/bottomNav"
+export class App extends vue {}
+</script>
+
+<style>
+  body {
+    background: #f6f6f6;
+  }
 </style>
