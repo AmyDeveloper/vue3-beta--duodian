@@ -1,4 +1,4 @@
-# vue3-beta-duodian
+# shop-vue2-tsx
 
 ## Project setup
 ```
