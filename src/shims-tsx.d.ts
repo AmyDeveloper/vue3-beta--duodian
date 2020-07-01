@@ -2,7 +2,6 @@ import Vue, { VNode } from 'vue'
 import { Toast } from 'vant'
 import handleError from '@/lib/error-handler'
 
-
 declare global {
   namespace JSX {
     // tslint:disable no-empty-interface
@@ -18,12 +17,12 @@ declare global {
   }
 }
 
-
-
 declare module 'vue/types/vue' {
   interface Vue {
     $toast: Toast
-    $handleError: handleError
+    $handleError: (error: any) => void
+  }
+  interface VueConstructor<V extends Vue> {
+    $handleError: (error: any) => void
   }
 }
-
