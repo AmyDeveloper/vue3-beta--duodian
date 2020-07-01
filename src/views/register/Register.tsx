@@ -3,6 +3,7 @@ import { Component } from 'vue-property-decorator'
 @Component
 export default class Register extends VueComponent<{}> {
   render() {
-    return <div>register</div>
+    return <div><van-button type="primary">默认按钮</van-button>
+    </div>
   }
 }

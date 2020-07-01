@@ -11,7 +11,6 @@
     "core-js": "^3.6.5",
     "install": "^0.13.0",
     "npm": "^6.14.5",
-    "vant": "^2.8.7",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^8.4.2",
@@ -39,6 +38,7 @@
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
     "typescript": "~3.9.3",
+    "vant": "^2.8.7",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -62,7 +62,7 @@
     "plugins": {
       "autoprefixer": {},
       "postcss-pxtorem": {
-        "rootValue": 100,
+        "rootValue": 37.5,
         "propWhiteList": []
       }
     }
