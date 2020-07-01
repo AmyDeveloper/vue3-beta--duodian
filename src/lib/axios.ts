@@ -19,7 +19,6 @@ const requestInterceptor = (config: AxiosRequestConfig) => {
   return config
 }
 
-
 instance.interceptors.response.use(responseInterceptor)
 instance.interceptors.request.use(requestInterceptor)
 

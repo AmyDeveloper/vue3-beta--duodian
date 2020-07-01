@@ -1,4 +1,7 @@
 import Vue, { VNode } from 'vue'
+import { Toast } from 'vant'
+import handleError from '@/lib/error-handler'
+
 
 declare global {
   namespace JSX {
@@ -10,4 +13,17 @@ declare global {
       [elem: string]: any
     }
   }
+  interface Window {
+    vue: Vue
+  }
 }
+
+
+
+declare module 'vue/types/vue' {
+  interface Vue {
+    $toast: Toast
+    $handleError: handleError
+  }
+}
+
