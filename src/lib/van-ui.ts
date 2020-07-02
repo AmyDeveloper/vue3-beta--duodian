@@ -1,9 +1,9 @@
 import 'vant/lib/index.css'
 
-import { Button } from 'vant'
+import { Button, Tabbar, TabbarItem } from 'vant'
 
 
-const VanComponents = { Button }
+const VanComponents = { Button, Tabbar, TabbarItem }
 
 export default {
   install(Vue: any) {

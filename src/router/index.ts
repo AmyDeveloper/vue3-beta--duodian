@@ -11,7 +11,7 @@ const routes: Array<RouteConfig> = [
   {
     path: '/register',
     component: () =>
-      import(/* webpackChunkName: 'register */ '@/views/register/Register.tsx'),
+      import(/* webpackChunkName: 'register */ '@/views/register/Register.vue'),
   },
 ]
 
