@@ -2,7 +2,6 @@ import 'vant/lib/index.css'
 
 import { Button, Tabbar, TabbarItem } from 'vant'
 
-
 const VanComponents = { Button, Tabbar, TabbarItem }
 
 export default {

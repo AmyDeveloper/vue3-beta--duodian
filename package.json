@@ -58,15 +58,6 @@
     },
     "rules": {}
   },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {},
-      "postcss-pxtorem": {
-        "rootValue": 37.5,
-        "propWhiteList": []
-      }
-    }
-  },
   "browserslist": [
     "> 1%",
     "last 5 versions",

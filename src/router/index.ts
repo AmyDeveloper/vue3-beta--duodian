@@ -10,8 +10,7 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: '/register',
-    component: () =>
-      import(/* webpackChunkName: 'register */ '@/views/register/Register.vue'),
+    component: () => import(/* webpackChunkName: 'register */ '@/views/register/Register.vue'),
   },
 ]
 
